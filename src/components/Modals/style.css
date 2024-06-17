@@ -1,0 +1,13 @@
+.custom-datepicker .ant-picker {
+    background-color: var(--theme);
+    color: white;
+  }
+  
+  .custom-datepicker .ant-picker-input input {
+    color: white;
+  }
+  
+  .custom-datepicker .ant-picker-suffix {
+    color: white;
+  }
+  

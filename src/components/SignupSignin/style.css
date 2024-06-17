@@ -1,0 +1,28 @@
+.signup-wrapper {
+  width: 70%;
+  max-width: 450px;
+  height: auto;
+  box-shadow: 0 0 0.5px 1px hsla(0, 0%, 100%, 0.075),
+    0 0 0 1px hsla(0, 0%, 0%, 0.05), 0 0.3px 0.4px hsla(0, 0%, 0%, 0.02),
+    0 0.9px 1.5px hsla(0, 0%, 0%, 0.045), 0 3.5px 6px hsla(0, 0%, 0%, 0.09); /* Soft shadow 3 */
+  border-radius: 1rem;
+  padding: 1rem 2rem; 
+}
+
+.theme-color {
+  color: var(--rcolor); /* Use the variable here */
+  background-color: transparent; /* Optional, to ensure no background color issues */
+}
+
+.title {
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.p-login{
+  font-weight: 300;
+  font-size: 0.9rem;
+  text-align: center;
+  margin: 0;
+}

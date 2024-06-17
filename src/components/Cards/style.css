@@ -1,0 +1,45 @@
+/* style.css */
+
+.card {
+  background-color: var(--rcolor);
+  box-shadow: 0 0 0.5px 1px hsla(0, 0%, 100%, 0.075),
+    0 0 0 1px hsla(0, 0%, 0%, 0.05), 0 0.3px 0.4px hsla(0, 0%, 0%, 0.02),
+    0 0.9px 1.5px hsla(0, 0%, 0%, 0.045), 0 3.5px 6px hsla(0, 0%, 0%, 0.09);
+  border-radius: 1rem;
+  padding: 0.2rem !important;
+  border: none;
+  min-width: 300px;
+  font-family: "Montserrat", sans-serif !important;
+  flex: 1;
+  margin: 0rem 0rem;
+}
+
+.card p {
+  margin: 1rem 0rem;
+}
+
+.card .ant-card-head {
+  border-bottom: none; /* Remove the border line between title and content */
+}
+
+.card .ant-card-head-title {
+  color: white; /* Optional: Adjust title color */
+  margin: 0rem !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: bold !important;
+  font-size: 1.1rem;
+}
+
+.card .ant-card-body {
+  color: white; /* Optional: Adjust content color */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 2rem auto;
+  flex-wrap: wrap;
+  gap: 16px;
+}

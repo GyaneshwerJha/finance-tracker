@@ -1,0 +1,11 @@
+.blue-text {
+  color: var(--theme);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+}
